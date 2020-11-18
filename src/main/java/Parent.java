@@ -7,7 +7,6 @@ public class Parent {
 
     protected String name;
 
-
     // Конструктор для приема параметра "Имя"
 
     public Parent(String name) {

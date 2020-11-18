@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-public class HomeWork1510For extends Parent{
+public class ClassB extends Parent{
 
     /*
     public static void sort(List<String> namesList) {

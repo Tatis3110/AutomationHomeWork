@@ -3,18 +3,18 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Collections;
 
-public class HomeWork1510 extends Parent {
+public class ClassA extends Parent {
 
     String name;
     int number;
 
     // для пустого экземпляра класса
 
-    public HomeWork1510(){
-        System.out.println("Новый пустой экземпляр класса HomeWork1510");
+    public ClassA(){
+        System.out.println("Новый пустой экземпляр класса ClassA");
     }
 // для экземпляра класса с именем и номером
-    public HomeWork1510 (String name, int number){
+    public ClassA (String name, int number){
         this.name = name;
         this.number = number;
         System.out.println(name + number);
