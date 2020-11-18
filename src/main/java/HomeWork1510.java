@@ -20,14 +20,8 @@ public class HomeWork1510 extends Parent {
         System.out.println(name + number);
     }
 
-
-
-/*
-        String[] names = new String[]{"Ann", "Helga", "David", "Marry", "John"};
-        List<String> namesList = getNamesList(names);
-        System.out.println(namesList);
-        HomeWork1510For.sort(namesList);
-
+    public static String[] getNamesStrings() {
+        return new String[]{"Ann", "Helga", "David", "Marry", "John"};
     }
 
     public static List<String> getNamesList(String[] names) {
@@ -40,8 +34,8 @@ public class HomeWork1510 extends Parent {
 
         }
         return namesList;
+    }
 
- */
     }
 
 
