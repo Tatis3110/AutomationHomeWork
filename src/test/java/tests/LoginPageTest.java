@@ -7,7 +7,7 @@ import pages.LoginPageObject;
 public class LoginPageTest extends BaseTest{
 
     private LoginPageObject page;
-
+/*
     @Before
 public void setPage(){
         this.page = new LoginPageObject(driver);
@@ -18,13 +18,15 @@ public void setPage(){
 
     @Test
     public void  negativeAuthTest(){
-page.chekAuthFields()
-              page.login("admin", "admin")
-              page.validateErrorMessage(errorMessage, True )
-              page.returnToLoginPage()
-                      page.login("login","passoword")
+page.chekAuthFields();
+              page.login("admin", "admin");
+              page.validateErrorMessage(errorMessage, True );
+              page.returnToLoginPage();
+                      page.login("login","passoword");
                       page.validateErrorMessage(errorMessage );
-              )
+
 
     }
+
+ */
 }

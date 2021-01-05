@@ -12,5 +12,4 @@ import org.openqa.selenium.WebDriver;
         this.driver = driver;
 
     }
-
 }
