@@ -32,7 +32,7 @@ public class NovaPoshtaAPITest extends NPBaseApiTest{
 
 
     @Test
-    public void checkDescriptionXml() {
+    public void checkCargoTypesXml() {
         given()
                 .spec(this.reqspec)
                 .queryParam("data")
@@ -48,7 +48,7 @@ public class NovaPoshtaAPITest extends NPBaseApiTest{
     }
 
     @Test
-    public void checkDescriptionJson() {
+    public void checkCargoTypesJson() {
         given()
                 .spec(this.reqspec)
                 .queryParam("data")
@@ -59,6 +59,6 @@ public class NovaPoshtaAPITest extends NPBaseApiTest{
                 .spec(this.resspec)
                 .assertThat()
                 .body("data.@Description", hasItems(equalTo("Вантаж"),
-                        equalTo("Документи"), equalTo("Шини-диски")));
+                        equalTo("Документи"), equalTo("Шини-диски"), equalTo("Посилка")));
     }
 }
